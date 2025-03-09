@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Sauce Labs Test Regression Suite" thread-count="1">
+    
+    <listeners>
+        <listener class-name="com.qa.saucedemo.listeners.ExtentReportListener"></listener>
+    </listeners>
+<!--    <test name="Verify Login page Test_chrome">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.saucedemo.tests.loginTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Verify Product Prices">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.saucedemo.tests.ProductsTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--    <test name="Verify Checkout process">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.saucedemo.tests.CartTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="UI and API Validations">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.qa.saucedemo.tests.UIAPIValicationTest" />
+        </classes>
+    </test>
+
+<!--    <test name="UI and API Validations">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="com.qa.saucedemo.tests.VisualPerformanceTest" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

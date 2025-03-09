@@ -1,0 +1,6 @@
+[
+  { "username": "standard_user", "password": "secret_sauce", "role": "standard_user" },
+  { "username": "locked_out_user", "password": "secret_sauce", "role": "locked_out_user" },
+  { "username": "problem_user", "password": "secret_sauce", "role": "problem_user" },
+  { "username": "performance_glitch_user", "password": "secret_sauce", "role": "performance_glitch_user" }
+]
